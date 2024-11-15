@@ -18,7 +18,7 @@ This project explores the application of **Large Language Models (LLMs)** for de
 
 ## Dataset
 
-- **Source**: Speech recordings from the **TAUKA-DIAL Challenge** dataset, sourced via TalkBank (2002).
+- **Source**: Speech recordings from the **TAUKA-DIAL Challenge** dataset, sourced via TalkBank (2002). https://sla.talkbank.org/TBB/dementia
 - **Participants**: A total of 67 Chinese-speaking subjects aged 60–90 years with no history of neurological disorders.
 - **Data Processing**:
   - Speech-to-text conversion using Google Speech Recognition API.
