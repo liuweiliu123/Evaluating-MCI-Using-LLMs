@@ -1,4 +1,4 @@
-# Evaluating-MCI-Using-LLMs
+
 # Evaluating Mild Cognitive Impairment Using Large Language Models
 
 ## Overview
