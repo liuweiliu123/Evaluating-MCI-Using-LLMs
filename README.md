@@ -77,12 +77,35 @@ This project explores the application of **Large Language Models (LLMs)** for de
 - **Dependencies**:
   ```bash
   pip install -r requirements.txt
-
+  Ensure the necessary libraries are installed:
+   ```bash
+   pip install matplotlib pandas
 ### diagram 2.py
+- **Data Definition**:
+  - Creates a list of model names (`model_name`) representing different configurations.
+  - Specifies quantization levels (`Quantization_level`), where `None` indicates no quantization applied.
+  - Defines a hypothetical accuracy matrix (`accuracy`) showing the performance of each model under respective quantization levels.
+
+- **Data Transformation**:
+  - Converts the accuracy matrix into a pandas DataFrame (`data_df`) for easier handling and visualization.
+  - Rows represent model names, and columns represent quantization levels.
+
+- **Heatmap Visualization**:
+  - Uses Seaborn to create a heatmap with:
+    - Annotated cell values to display the accuracy.
+    - A `coolwarm` color map to visually distinguish accuracy levels.
+  - Adds axis labels and a title to provide context for the visualization.
+
+- **Plot Display**:
+  - Adjusts the plot size for better readability.
+  - Displays the heatmap, allowing users to compare the performance of different models across quantization levels.
 #### Prerequisites
 -**Python**: 3.8 or higher
 - **Dependencies**:
   ```bash
   pip install -r requirements.txt
+  Ensure the required libraries are installed:
+   ```bash
+   pip install numpy pandas matplotlib seaborn
 
 [Click here to open in Google Colab](https://colab.research.google.com/drive/1EJaqxjigGaF2SbLdCH-v2TYgKX904a7j#scrollTo=1bK9NrEaR60U)
