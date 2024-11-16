@@ -46,6 +46,12 @@ This project explores the application of **Large Language Models (LLMs)** for de
 
 ---
 
-Code explanation
+## Code explanation
+
+### diagram 1.py
+-**Python**: 3.8 or higher
+- **Dependencies**:
+  ```bash
+  pip install -r requirements.txt
 
 [Click here to open in Google Colab](https://colab.research.google.com/drive/1EJaqxjigGaF2SbLdCH-v2TYgKX904a7j#scrollTo=1bK9NrEaR60U)
