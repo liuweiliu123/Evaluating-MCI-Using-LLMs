@@ -49,6 +49,13 @@ This project explores the application of **Large Language Models (LLMs)** for de
 ## Code explanation
 
 ### diagram 1.py
+#### Prerequisites
+-**Python**: 3.8 or higher
+- **Dependencies**:
+  ```bash
+  pip install -r requirements.txt
+
+### diagram 1.py
 -**Python**: 3.8 or higher
 - **Dependencies**:
   ```bash
