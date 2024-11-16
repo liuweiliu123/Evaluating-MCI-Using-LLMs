@@ -24,7 +24,7 @@ This project explores the application of **Large Language Models (LLMs)** for de
   - Speech-to-text conversion using Google Speech Recognition API.
   - Dataset restructuring into `Instruction`, `Input`, and `Output` columns.
   - Balanced split of training (1:4) and testing (1:1 MCI to NC ratio) datasets.
-- **Location** :We uploaded our pre-processed datasets on both GitHub and hugging face
+- **Location** :We uploaded our pre-processed datasets on both GitHub(https://github.com/liuweiliu123/Evaluating-MCI-Using-LLMs.git) and hugging face(https://huggingface.co/datasets/lucasliuwei/Chinese_audioTotext_test)(https://huggingface.co/datasets/lucasliuwei/Chinese_audioTotext_train)
 ---
 
 ## Model Fine-Tuning
