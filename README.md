@@ -77,7 +77,6 @@ This project explores the application of **Large Language Models (LLMs)** for de
 - **Dependencies**:
   ```bash
   pip install -r requirements.txt
-  ```bash
   pip install matplotlib pandas
 ### diagram 2.py
 - **Data Definition**:
@@ -103,7 +102,6 @@ This project explores the application of **Large Language Models (LLMs)** for de
 - **Dependencies**:
   ```bash
   pip install -r requirements.txt
-  ```bash
   pip install numpy pandas matplotlib seaborn
 
 [Click here to open in Google Colab](https://colab.research.google.com/drive/1EJaqxjigGaF2SbLdCH-v2TYgKX904a7j#scrollTo=1bK9NrEaR60U)
