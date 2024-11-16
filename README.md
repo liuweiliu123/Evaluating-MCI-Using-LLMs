@@ -77,7 +77,7 @@ This project explores the application of **Large Language Models (LLMs)** for de
 - **Dependencies**:
   ```bash
   pip install -r requirements.txt
-Ensure the necessary libraries are installed:
+##### Ensure the necessary libraries are installed:
    ```bash
    pip install matplotlib pandas
 ### diagram 2.py
@@ -104,7 +104,7 @@ Ensure the necessary libraries are installed:
 - **Dependencies**:
   ```bash
   pip install -r requirements.txt
-Ensure the required libraries are installed:
+##### Ensure the required libraries are installed:
    ```bash
    pip install numpy pandas matplotlib seaborn
 
