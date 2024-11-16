@@ -49,13 +49,37 @@ This project explores the application of **Large Language Models (LLMs)** for de
 ## Code explanation
 
 ### diagram 1.py
+- **Data Import and Preprocessing**:
+  - Reads specific columns (`Color`, `Size`, `X`, `Y`) from a CSV file.
+  - Converts `X`, `Y`, and `Size` to numeric format to ensure compatibility for plotting.
+  - Maps the `Color` column's categorical values (e.g., 'Gemma', 'Qwen') to specific colors (e.g., red, blue) for visual distinction.
+
+- **Data Filtering**:
+  - Filters data to include only rows where `X` (quantization level) equals 4, 8, or 12.
+  - Removes rows with missing values (`NaN`) in key columns.
+
+- **Scatter Plot Creation**:
+  - Groups data by color, representing different models.
+  - Plots scatter points for each group, with sizes proportional to the `Size` column.
+  - Adds X and Y axis labels and customizes X-axis tick labels (replacing `12` with `None`).
+
+- **Legend Customization**:
+  - Creates a custom legend with color patches representing each model (e.g., 'Gemma' in red, 'Qwen' in blue).
+  - Positions the legend outside the plot for better readability.
+
+- **Visualization Adjustments**:
+  - Adjusts X-axis range and layout to ensure proper spacing and prevent overlapping elements.
+
+- **Plot Display**:
+  - Renders the finalized scatter plot, effectively illustrating the relationship between quantization levels and accuracy for various models.
 #### Prerequisites
 -**Python**: 3.8 or higher
 - **Dependencies**:
   ```bash
   pip install -r requirements.txt
 
-### diagram 1.py
+### diagram 2.py
+#### Prerequisites
 -**Python**: 3.8 or higher
 - **Dependencies**:
   ```bash
