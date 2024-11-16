@@ -105,3 +105,20 @@ This project explores the application of **Large Language Models (LLMs)** for de
   pip install numpy pandas matplotlib seaborn
 ### Model Code in colab
 [Click here to open in Google Colab](https://colab.research.google.com/drive/1EJaqxjigGaF2SbLdCH-v2TYgKX904a7j#scrollTo=1bK9NrEaR60U)
+## Results
+
+### Best Model
+- **Llama3-8B** achieved:
+  - **Accuracy**: 85.36%
+  - **F1-Score**: 85.36%
+  - With **4-bit quantization**.
+
+### Metrics Evaluated
+- **Accuracy**
+- **F1-Score**
+- **Precision**
+- **Recall**
+
+### Key Observations
+- Quantization generally reduced model performance.
+- **LoRA** and **QLoRA** effectively minimized performance losses.
