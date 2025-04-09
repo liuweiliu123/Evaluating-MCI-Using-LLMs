@@ -79,6 +79,27 @@ This project explores the application of **Large Language Models (LLMs)** for de
   pip install -r requirements.txt
   pip install matplotlib pandas
 
+  
+### five‑fold cross‑validation.py
+### Data Import and Preprocessing
+- Reads a JSON file containing a list of data samples.
+- Randomly shuffles the data using `random.shuffle()` to ensure an unbiased split.
+
+### Five-Fold Data Splitting
+- Divides the dataset into 5 equal parts (folds).
+- For each fold:
+  - Assigns one fold as the **test set**.
+  - Uses the remaining four folds as the **training set**.
+  - For the last fold, includes any remaining samples to avoid loss due to uneven division.
+- Stores each fold in a dictionary with keys:
+  - `'fold'`: Fold number (1 through 5)
+  - `'train_data'`: Training samples
+  - `'test_data'`: Testing samples
+
+### File Output
+- Saves the training and testing datasets for each fold as separate JSON files:
+  - `train_fold_1.json`, `test_fold_1.json`, ..., `train_fold_5.json`, `test_fold_5.json`
+- Outputs summary statistics to the console:
 
 ### Model Code in colab
 [Click here to open in Google Colab](https://colab.research.google.com/drive/1EJaqxjigGaF2SbLdCH-v2TYgKX904a7j#scrollTo=1bK9NrEaR60U)
