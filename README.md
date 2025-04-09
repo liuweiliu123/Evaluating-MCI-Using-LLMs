@@ -107,8 +107,8 @@ This project explores the application of **Large Language Models (LLMs)** for de
 
 ### Best Model
 - **Llama3-8B** achieved:
-  - **Accuracy**: 85.36%
-  - **F1-Score**: 85.36%
+  - **Accuracy**: 85.71%
+  - **F1-Score**: 85.71%
   - With **4-bit quantization**.
 
 ### Metrics Evaluated
